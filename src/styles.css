@@ -1,0 +1,29 @@
+.icon{
+    color: #DA0037;
+    font-size: 30px;
+}
+body{
+    background-color: #132C33;
+}
+.grid{
+    display: grid; /*col & row */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.box{
+    width:auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    text-align: center;
+    margin-left: 16rem;
+    margin-bottom: 2rem;
+}
+h1 {
+    color: #51C4D3;
+    text-align: center;
+    margin-bottom: 2rem;
+}
